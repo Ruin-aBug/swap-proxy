@@ -1,0 +1,126 @@
+{
+  "Files": [
+    {
+      "readonly": false,
+      "path": "./contracts/sushiswap/info/ConstantAddr.sol",
+      "data": [
+        {
+          "keydata": "Router\\s*=\\s*(.+);",
+          "value": {
+            "1": "0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F",
+            "4": "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+          }
+        },
+        {
+          "keydata": "Factory\\s*=\\s*(.+);",
+          "value": {
+            "1": "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac",
+            "4": "0x67e260A8DE88216D4fc82C22f80e3108c1BB4Bd7"
+          }
+        },
+        {
+          "keydata": "SushiToken\\s*=\\s*(.+);",
+          "value": {
+            "1": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+            "4": "0x2AD77149508F47eC21543feD58c627CA793FacC9"
+          }
+        },
+        {
+          "keydata": "MasterChefAddr\\s*=\\s*(.+);",
+          "value": {
+            "1": "0xc2EdaD668740f1aA35E4D8f227fB8E17dcA888Cd",
+            "4": "0x0A292f4E728D6A28c9B612b9898F7953438ec923"
+          }
+        }
+      ]
+    },
+    {
+      "readonly": false,
+      "path": "./contracts/const/Constant.sol",
+      "data": [
+        {
+          "keydata": "USDT\\s*=\\s*(.+);",
+          "value": {
+            "1": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+            "4": "0x12fEd4e2520E5E30270c2932107BEAd3Db307907",
+            "56": "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56",
+            "128": "0xa71EdC38d189767582C38A3145b5873052c3e47a",
+            "97": "0xaFD9131107e0eF9D22c1deDa0A04EbDc6612684C"
+          }
+        },
+        {
+          "keydata": "WTOKEN\\s*=\\s*(.+);",
+          "value": {
+            "4": "0x66c15636B81A9Fa0183bdAfe3f726D4b7F3b80d5",
+            "56": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+            "128": "0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F",
+            "97": "0xeC274b04c38AE02d456FEeaF120CAE8BAE2a0Dfc"
+          }
+        },
+        {
+          "keydata": "baseToken\\s*=\\s*(.+);",
+          "value": {
+            "128": "[0xa71EdC38d189767582C38A3145b5873052c3e47a,0x0298c2b32eaE4da002a15f36fdf7615BEa3DA047,0x9362Bbef4B8313A8Aa9f0c9808B80577Aa26B73B,0x5545153CCFcA01fbd7Dd11C0b23ba694D9509A6F,0x64FF637fB478863B7468bc97D30a5bF3A428a1fD,0x66a79D23E58475D2738179Ca52cd0b41d73f0BEa]",
+            "56": "[0x2170Ed0880ac9A755fd29B2688956BD959F933F8,0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d,0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c,0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56,0x55d398326f99059fF775485246999027B3197955,0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c]",
+            "4": "[0x66c15636B81A9Fa0183bdAfe3f726D4b7F3b80d5,0x12fEd4e2520E5E30270c2932107BEAd3Db307907,0x2AD77149508F47eC21543feD58c627CA793FacC9]",
+            "97": "[0xeC274b04c38AE02d456FEeaF120CAE8BAE2a0Dfc,0xaFD9131107e0eF9D22c1deDa0A04EbDc6612684C,0x6d00950525041f45ba7458F5A3e99A7c962574d8]"
+          }
+        }
+      ]
+    },
+    {
+      "readonly": false,
+      "path": "./contracts/mdex/heco/HecoSwap.sol",
+      "data": [
+        {
+          "keydata": "ROUTER_ADDRESS\\s*=\\s*(.+);",
+          "value": {
+            "56": "0x7DAe51BD3E3376B8c7c4900E9107f12Be3AF1bA8",
+            "128": "0xED7d5F38C79115ca12fe6C0041abb22F0A06C300"
+          }
+        },
+        {
+          "keydata": "hecoPool\\s*=\\s*(.+);",
+          "value": {
+            "56": "0xc48FE252Aa631017dF253578B1405ea399728A50",
+            "128": "0xFB03e11D93632D97a8981158A632Dd5986F5E909"
+          }
+        }
+      ]
+    },
+    {
+      "readonly": false,
+      "path": "./contracts/pancake/info/ConstantAddr.sol",
+      "data": [
+        {
+          "keydata": "Router\\s*=\\s*(.+);",
+          "value": {
+            "56": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+            "97": "0x9Ac64Cc6e4415144C455BD8E4837Fea55603e5c3"
+          }
+        },
+        {
+          "keydata": "Factory\\s*=\\s*(.+);",
+          "value": {
+            "56": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+            "97": "0xB7926C0430Afb07AA7DEfDE6DA862aE0Bde767bc"
+          }
+        },
+        {
+          "keydata": "MasterChefAddr\\s*=\\s*(.+);",
+          "value": {
+            "56": "0x73feaa1eE314F8c655E354234017bE2193C9E24E",
+            "97": "0xA435c5eBA2A3c901D8a52F1a7F28DBa04fe39d1d"
+          }
+        },
+        {
+          "keydata": "CakeToken\\s*=\\s*(.+);",
+          "value": {
+            "56": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+            "97": "0x6d00950525041f45ba7458F5A3e99A7c962574d8"
+          }
+        }
+      ]
+    }
+  ]
+}

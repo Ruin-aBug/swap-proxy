@@ -1,0 +1,39 @@
+{
+  "name": "rainbowproxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-truffle5": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/contracts": "^4.2.0",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^8.2.3",
+    "@types/node": "^16.3.2",
+    "bignumber.js": "^9.0.1",
+    "chai": "^4.3.4",
+    "chai-ethers": "^0.0.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.1",
+    "hardhat": "^2.4.3",
+    "hardhat-abi-exporter": "^2.2.1",
+    "hardhat-contract-sizer": "^2.1.0",
+    "hardhat-deploy": "^0.8.11",
+    "hardhat-deploy-ethers": "^0.3.0-beta.10",
+    "hardhat-gas-reporter": "^1.0.4",
+    "mocha": "^9.0.2",
+    "ts-node": "^10.1.0",
+    "typechain": "^5.1.1",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "deploy": "hardhat deploy --network rinkeby --tags Mdex",
+    "compile": "hardhat compile",
+    "testToken": "hardhat test test/Token.test.ts --network rinkeby"
+  },
+  "dependencies": {
+    "@uniswap/v3-core": "^1.0.0"
+  }
+}
